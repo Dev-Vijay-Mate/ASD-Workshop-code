@@ -4,6 +4,8 @@ const path = require('path');
 const pathToFile = path.join(__dirname, '..', 'db.json');
 
 async function readProducts() {
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
     const data = await fs.readFile(pathToFile, 'utf-8');
     return JSON.parse(data);
 }
