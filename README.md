@@ -2,11 +2,11 @@
 
 ## Project Structure
 
-- routes - API routes
-- middleware - Cache middleware
-- controllers - Request and response handling
-- services - Business logic and cache service
-- database - Database operations
+- Routes - API routes
+- Middleware - Cache middleware
+- Controllers - Request and response handling
+- Services - Business logic and cache service
+- Database - Database operations 
 
 ## Features
 
